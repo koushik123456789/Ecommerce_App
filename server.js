@@ -8,7 +8,7 @@ import categoryRoutes from "./routes/categoryRoutes.js"
 import cors from "cors"
 import productRoutes from "./routes/productRoutes.js"
 import path from "path";
-
+import { fileURLToPath } from "url";
 
 
 
@@ -20,6 +20,9 @@ dotenv.config();
 // database config
 connectDB();
 
+// fix
+const__filename = fileURLToPath(import.meta.url)
+const__dirname = path.dirname(__filename)
 
 
 //rest object
