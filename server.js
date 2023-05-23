@@ -12,7 +12,7 @@ import { fileURLToPath } from "url";
 
 
 
-// This is the cofigure env
+// This is the cofigure envo
 dotenv.config();
 
 
