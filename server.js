@@ -12,12 +12,12 @@ import { fileURLToPath } from "url";
 
 
 
-// cofigure env
+// This is the cofigure env
 dotenv.config();
 
 
 
-// database config
+//this is database config
 connectDB();
 
 // fix module
